@@ -12,7 +12,6 @@ public class OnTrackTest {
 
     @Test
     public void testGetTaskStatus() {
-        // Right: Test getting task statuses
         Assert.assertEquals("Not Started", OnTrack.getTaskStatus("task1"));
         Assert.assertEquals("Working On It", OnTrack.getTaskStatus("task2"));
         Assert.assertEquals("Need Help", OnTrack.getTaskStatus("task3"));
